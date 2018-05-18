@@ -1,0 +1,26 @@
+{
+  "name": "create-react-app-with-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "material-ui": "^0.20.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts-ts": "latest"
+  },
+  "devDependencies": {
+    "@types/jest": "*",
+    "@types/material-ui": "^0.20.8",
+    "@types/node": "*",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
